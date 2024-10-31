@@ -91,12 +91,6 @@ case_when(period == 'monthly' ~ (monthly_payslip),
 
 }
 
-f_nhs_payslip(annual_wage = 50952,
-              income_tax_allowance = 13080,
-              student_loan_plan = 1,
-              period = 'monthly')
-
-f_nhs_payslip(annual_wage = 60000)
 
 
 
